@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('MTQ4NTA1NzI2MTA0NTgwOTM0Mw.GvYeUw.aFIc5Yhfpe9wROGXPONEIx9gMD7x7czmlFK9fo')
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -81,4 +81,4 @@ async def stop(interaction: discord.Interaction):
     
     del user_times[user_id]
 
-bot.run(TOKEN)
+bot.run(MTQ4NTA1NzI2MTA0NTgwOTM0Mw.GvYeUw.aFIc5Yhfpe9wROGXPONEIx9gMD7x7czmlFK9fo)
